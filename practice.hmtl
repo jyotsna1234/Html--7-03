@@ -1,0 +1,15 @@
+<html>
+<head>
+<style>
+.header{border:10px solid green;background-color:red;}
+</style>
+</head>
+<body>
+<div class="one">
+	<div class="header">
+	
+	</div>
+	<div class="container"></div>
+	</div>
+</body>
+</html>

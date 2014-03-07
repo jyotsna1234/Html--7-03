@@ -1,0 +1,40 @@
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+function fun()
+{
+alert("entered into script");
+}
+</script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<img src="headerimage.jpeg" alt="headerimage"/>
+		<h2>register </h2>
+	</div>
+	<div class="container">
+	
+		<div class="form-input">
+			<form id="registerform">
+			<table align="center" id="registertable">
+			<caption>register form </caption>
+			<tr><td align="left">user name:<sup>*</sup></td><td><input type="text" name="uname"></td></tr>
+			<tr><td align="left">password<sup>*</sup></td><td><input type="text" name="pass"></td></tr>
+			<tr><td align="left">re enter password:<sup>*</sup></td><td><input type="text" name="pass1"></td></tr>
+			<tr><td align="left">sex</td><td>male<input type="radio" name="sex" id="sex">female<input type="radio" name="sex" id="sex"></td></tr>
+			<tr><td align="left">email:</td><td><input type="text" name="email"></td></tr>
+			<tr><td align="left">education:</td><td><input list="edustream" id="education"><datalist id="edustream"><option value="btech"><option value="inter"></td></datalist></tr>
+			<tr><td align="left">address:</td><td> <textarea rows="10" cols="20" name="address"></textarea></td></tr>
+			<tr><td align="left">submit</td><td><input type="button" name="submit" onclick="fun()" value="submit"></td></tr>	
+			</table>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+

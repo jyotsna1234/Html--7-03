@@ -1,0 +1,15 @@
+.wrapper{min-height:900px;width:1200px;margin:0 auto;border-radius:20px;border:10px solid yellow;outline:green groove 3px; box-shadow:1px 1px 10px blue;}
+.header,.header img {height:200px;width:1200px; border-radius:20px;}
+h2{margin-top: -90px;color: white;margin-left: 500px;text-shadow:1px 3px 10px 1px pink;}
+.container .c1 table{width:100%;height:50px;text-align:center;background:yellow;border-radius:5px; }
+.container .c1 table td a { background:green;padding:3px 50px 3px 50px;}
+a{text-decoration:none;}
+a:visited,a:hover{background-color:white;}
+.container .form-input{margin-top:30px; border:10px solid green;border-radius:5px;margin:20 250;}
+.c-right-nav ul li {background:orange; list-style:none; float:left; margin:10px 50px 10px 5px;padding:5px 15px 5px 15px;border-radius:10px; width:auto;}
+/*.wrapper .container .c-right{  width:850px; height:600px;float:left; }*/
+.wrapper .container .c2-1{margin-left:20px; padding:0 20px;}
+.wrapper .container  .c2-2{margin-left:100px;}
+.table1 ul{list-style:none;}
+.paracols {column-count:3;-moz-column-count:3; /* Firefox */-webkit-column-count:3; /* Safari and Chrome */ text-align:justify;}
+.paracols .big {font-weight:bold; font-size:30px;}
